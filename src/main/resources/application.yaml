@@ -1,0 +1,9 @@
+server:
+  port: 80
+spring:
+  datasource:
+    jdbc-url: jdbc:mysql://localhost/wpg_user
+    username: wpg
+    password: wpg
+  jpa:
+    show-sql: true
